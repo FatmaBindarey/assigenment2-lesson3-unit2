@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* using if statement only */
+
 
 int main() {
     int n, i;
