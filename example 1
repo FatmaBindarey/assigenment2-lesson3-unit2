@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : assignment_2.c
+ Author      :Fatma Adnan
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void)
+{
+	int n;
+	printf(" enter the number : ");
+	scanf(" %d " ,&n);
+	if (n%2 ==0)
+        /* if the reminder equal zero then it is even */
+        printf(" %d is even" , n);
+    else
+        printf(" %d is odd ", n);
+   return 0;
+}
